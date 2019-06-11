@@ -1,8 +1,149 @@
-/*
-Colors:
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap");
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+* {
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
 
-*/
+.clear-fix {
+  clear: both;
+}
+
+/*=========== NAV BAR ===============*/
+
+.logo-name {
+  width: 150px;
+}
+
+.nav-bar {
+  margin: 10px 30px 0 0;
+}
+
+nav a {
+  float: right;
+  text-decoration: none;
+  margin-left: 20px;
+  color: #1a1a1a;
+  margin-top: 20px;
+}
+
+nav a:hover {
+  color: #00b172;
+}
+
+/* ============ HEADER ================*/
+
+.header {
+  background-image: url("../images/landing.jpg");
+  background-size: 900px;
+  color: #fff;
+}
+
+.header h1,
+h2 {
+  text-align: center;
+}
+
+h1 {
+  padding-top: 150px;
+  font-weight: bold;
+  font-size: 3em;
+}
+
+h2 {
+  padding-bottom: 200px;
+  font-weight: normal;
+  font-size: 1.2em;
+}
+
+/*============= BODY ===================*/
+
+.main-title {
+  text-align: center;
+  border-bottom: 2px solid #00b172;
+  width: 170px;
+  height: 30px;
+  margin: 0 auto;
+}
+
+.column-3 {
+  width: 33%;
+  float: left;
+  text-align: center;
+  padding: 40px;
+}
+
+.column-3 img {
+  width: 150px;
+  height: 120px;
+}
+
+.column-3 h4 {
+  color: #00b172;
+  font-size: 1.1em;
+}
+
+/*=========== BOTTOM PART ==============*/
+
+.container {
+  background-color: #00b172;
+  color: #ffffff;
+  padding: 20px 0 20px 40px;
+}
+
+.footer-title {
+  border-bottom: 2px solid white;
+  width: 360px;
+  height: 40px;
+}
+
+.column-2 h3 {
+  font-size: 1.7em;
+}
+
+.column-2 {
+  width: 40%;
+  color: #ffffff;
+}
+
+.column-middle {
+  width: 10%;
+  position: relative;
+  bottom: 200px;
+  left: 300px;
+}
+
+.white-icon {
+  width: 70px;
+}
+
+.right {
+  float: right;
+}
+
+.app-img {
+  width: 250px;
+  position: relative;
+  left: 15px;
+  top: -470px;
+}
+
+/* ============== media queries =======*/
+
+@media (max-width: 780px) {
+  .column-3,
+  .column-2 {
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+  }
+  .container {
+    position: absolute;
+    width: 100%;
+    height: 1010px;
+  }
+  .app-img {
+    position: absolute;
+    margin: 950px 0 0 30px;
+  }
+}
