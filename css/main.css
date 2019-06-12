@@ -6,3 +6,166 @@ Green: #00B172
 White: #FFF
 
 */
+img {
+  max-width: 100%;
+}
+body {
+  background-color: #444645;
+  color: #1a1a1a;
+}
+.main {
+  width: 80%;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+.navbar {
+  /* position: fixed; */
+  width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 40px;
+  background-color: #fff;
+  display: inline-block;
+}
+.navbar .logo {
+  float: left;
+  width: 200px;
+  padding: 20px;
+}
+
+.navbar .lnksnav {
+  float: right;
+  padding: 20px;
+  vertical-align: -webkit-baseline-middle;
+  position: inherit;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.navbar .lnksnav a {
+  text-decoration: none;
+  color: #1a1a1a;
+  font-size: 20px;
+  padding: 0 20px;
+}
+.content {
+  width: 100%;
+  margin-top: 37px;
+}
+.jumbotron {
+  text-align: center;
+}
+.jumbotron .imglanding {
+  width: 100%;
+}
+.jumbotron .centertext {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.jumbotron h1 {
+  font-size: 75px;
+  color: white;
+  font-weight: bold;
+}
+.jumbotron h2 {
+  margin-top: 50px;
+  font-size: 30px;
+  color: white;
+  font-family: fantasy;
+}
+.content-bottom {
+  background-color: #fff;
+  padding: 50px;
+}
+
+.whatsecenter {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.whatsecenter .bordertitle {
+  width: 28%;
+  margin: 0 auto;
+  border-bottom: solid 6px #00b172;
+  padding: 15px;
+}
+.whatsecenter h3 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.whatsecenter .block-container {
+  padding: 50px;
+}
+
+.whatsecenter .block-container .block {
+  width: 33%;
+  display: inline-block;
+  vertical-align: top;
+}
+.whatsecenter .block-container .block :first-child {
+  width: 55%;
+  margin: 0 auto;
+  height: 85px;
+}
+.whatsecenter .block-container .block .title {
+  font-size: 25px;
+  color: #00b172;
+  line-height: 85px;
+  font-weight: bold;
+}
+.whatsecenter .block-container .block .textblock {
+  font-size: 20px;
+  color: #5f5d5d;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.kanye {
+  background-color: #00b172;
+  padding: 50px;
+  position: relative;
+}
+.kanye .block {
+  width: 49%;
+  display: inline-block;
+  vertical-align: top;
+  color: white;
+}
+
+.kanye .block .bordertitle {
+  border-bottom: solid 4px #fff;
+  width: 78%;
+  padding-bottom: 12px;
+}
+.kanye .block h3 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.kanye .block .appimage {
+  width: 73%;
+  float: right;
+  margin-top: 25px;
+}
+.kanye .block .actions {
+  padding-top: 50px;
+  width: 66%;
+}
+.kanye .block .actions span {
+  font-size: 30px;
+  font-weight: bold;
+}
+.kanye .block .actions p {
+  padding-top: 20px;
+  font-size: 23px;
+  font-family: fantasy;
+  line-height: 33px;
+}
+.kanye .logowhite {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 13%;
+}
