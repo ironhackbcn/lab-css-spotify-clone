@@ -6,3 +6,71 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  margin: 0;
+  padding: 0;
+  block-size: border-box;
+}
+.img-nav {
+  display: inline-block;
+}
+.nav-principal {
+  float: right;
+}
+nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 20px;
+}
+.nav-principal {
+  margin-top: 40px;
+  margin-right: 80px;
+}
+.img-nav {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.content-header {
+  margin-top: 15%;
+}
+.h1-header-mg {
+  margin-bottom: 40px;
+}
+.center-h1 {
+  text-align: center;
+  margin-top: 40px;
+}
+.align-left {
+  float: left;
+  margin-left: 120px;
+  margin-top: 80px;
+}
+.clearfix {
+  clear: both;
+}
+.col {
+  width: 20%;
+  text-align: center;
+  margin-left: 170px;
+}
+.color-green {
+  color: #00b172;
+}
+.container-footer {
+  background-color: #00b172;
+  color: white;
+  margin-left: 40px;
+  margin-top: 40px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  padding: 80px;
+}
+.margin-foo-section {
+  margin-top: 40px;
+}
+.img-right {
+  float: right;
+  margin-right: 180px;
+}
