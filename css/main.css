@@ -6,3 +6,147 @@ Green: #00B172
 White: #FFF
 
 */
+
+*,
+body {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 30px;
+}
+
+.container--wrapperlogo img {
+  width: 200px
+}
+
+.container--nav ul {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+}
+
+.container--nav li {
+  display: inline-block;
+  font-size: 1.3rem;
+  font-weight: 200;
+  padding: 0px 16px;
+}
+
+.jumbotron {
+  background-image: url("../images/landing.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 600px;
+  background-color: #00B172;
+  background-size: cover;
+  text-align: center;
+}
+
+.jumbotron h1 {
+  font-size: 4.5rem;
+  font-weight: 700;
+  color: white;
+  padding: 200px 0 0 0;
+}
+
+.jumbotron p {
+  font-size: 1.8rem;
+  font-weight: 300;
+  color: white;
+}
+
+section {
+  margin: 50px 0px;
+}
+
+.card h2 {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-color: #00B172;
+  margin-bottom: 100px;
+}
+
+.flex--spaceArroud {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.card--section--flex-article {
+  text-align: center;
+  width: 25%;
+}
+
+.card--section--flex-article img {
+  width: 150px
+}
+
+.card--section--flex-article h3 {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #00B172;
+  margin: 40px 0px;
+}
+
+.card--section--flex-article p {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 200;
+  margin: 20px 0px;
+}
+
+.greenZone {
+  background-color: #00B172;
+  padding: 50px 50px;
+
+}
+
+.greeZone--left h2 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: white;
+  text-decoration: underline;
+  margin: 0px 0px;
+
+
+}
+
+.greeZone--left>article>h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+  margin: 50px 0px;
+
+}
+
+.greeZone--left>article>p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: white;
+  line-height: 30px;
+  width: 70%;
+
+}
+
+.greenZone--center img {
+  width: 20%;
+}
+
+.greenZone--center {
+  align-self: center;
+}
+
+
+.greenZone--rigth img {
+  width: 100%;
+}

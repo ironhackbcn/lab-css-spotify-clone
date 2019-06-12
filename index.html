@@ -3,66 +3,92 @@
   <head>
     <meta charset="UTF-8" />
     <title>Spotify</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,700,800,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,700,800,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
     <header>
-      <img src="./images/spotify-logo.png" alt="logotype Spotify" />
-      <nav>
-        <ul>
-          <li>Premium</li>
-          <li>Discover</li>
-          <li>Help</li>
-          <li>Download</li>
-        </ul>
-      </nav>
+      <div class="container">
+        <div class="container--wrapperlogo">
+          <img src="./images/spotify-logo.png" alt="logotype Spotify" />
+        </div>
+        <nav class="container--nav">
+          <ul>
+            <li>Premium</li>
+            <li>Discover</li>
+            <li>Help</li>
+            <li>Download</li>
+          </ul>
+        </nav>
+      </div>
     </header>
-    <section>
+    <section class="jumbotron">
       <h1>Music for everyone.</h1>
       <p>
-        Spotify is now free on mobile, tablet and computer. Listen to the right
-        music, wherever you are.
+        Spotify is now free on mobile, tablet and computer. <br />
+        Listen to the right music, wherever you are.
       </p>
     </section>
-    <section>
+    <section class="card">
       <h2>What’s on Spotify?</h2>
-      <article>
-        <img src="./images/music-icon.png" alt="mucic icon" />
-        <h3>Millions of Songs</h3>
-        <p>There are millions of songs on Spotify</p>
-      </article>
-      <article>
-        <img src="./images/high-quality-icon.png" alt="high quality icon" />
-        <h3>HD Music</h3>
-        <p>Listen to music as if you were listening live</p>
-      </article>
-      <article>
-        <img src="./images/devices-icon.png" alt="devices icon" />
-        <h3>Stream Everywhere</h3>
-        <p>Stream music on your smartphone, tablet or computer</p>
-      </article>
+      <div class="flex--spaceArroud">
+        <article class="card--section--flex-article">
+          <img src="./images/music-icon.png" alt="mucic icon" />
+          <h3>Millions of Songs</h3>
+          <p>There are millions of songs on Spotify</p>
+        </article>
+        <article class="card--section--flex-article">
+          <img src="./images/high-quality-icon.png" alt="high quality icon" />
+          <h3>HD Music</h3>
+          <p>Listen to music as if you were listening live</p>
+        </article>
+        <article class="card--section--flex-article">
+          <img src="./images/devices-icon.png" alt="devices icon" />
+          <h3>Stream Everywhere</h3>
+          <p>Stream music on your smartphone, tablet or computer</p>
+        </article>
+      </div>
     </section>
-    <section>
-      <h2>It’s as yeezy as Kanye West.</h2>
-      <article>
-        <h3>Search</h3>
-        <p>
-          Know what you want to listen to? Just search and hit play.
-        </p>
-      </article>
-      <article>
-        <h3>Browse</h3>
-        <p>
-          Check out the latest charts, brand new releases and great playlists
-          for right now.
-        </p>
-      </article>
-      <article>
-        <h3>Discover</h3>
-        <p>
-          Enjoy new music every Monday with your own personal playlist. Or sit
-          back and enjoy Radio.
-        </p>
-      </article>
+    <section class="flex--spaceArroud greenZone">
+      <div class="greeZone--left .greenZone--size">
+        <h2>It’s as yeezy as Kanye West.</h2>
+        <article>
+          <h3>Search</h3>
+          <p>
+            Know what you want to listen to? <br />
+            Just search and hit play.
+          </p>
+        </article>
+        <article>
+          <h3>Browse</h3>
+          <p>
+            Check out the latest charts, brand new releases and great playlists
+            for right now.
+          </p>
+        </article>
+        <article>
+          <h3>Discover</h3>
+          <p>
+            Enjoy new music every Monday with your own personal playlist. Or sit
+            back and enjoy Radio.
+          </p>
+        </article>
+      </div>
+      <div class="greenZone--center greenZone--size">
+        <img src="./images/spotify-icon-white.png" alt="" />
+      </div>
+      <div class="greenZone--rigth greenZone--size">
+        <img src="./images/spotify-app.jpg" alt="image sopotify app" />
+      </div>
     </section>
   </body>
 </html>
