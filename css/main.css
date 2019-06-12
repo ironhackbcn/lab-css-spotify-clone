@@ -6,3 +6,139 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+  box-sizing: border-box;
+}
+.logo {
+  width: 8rem;
+  margin: 1rem 2rem;
+}
+.nav-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 1;
+}
+.nav-bar .logo {
+  float: left;
+}
+.nav-bar .links-r {
+  float: right;
+}
+.nav-bar .links-r li {
+  float: left;
+  margin: 1.5rem 0.6rem;
+}
+
+.nav-bar .links-r li:last-child {
+  margin-right: 1.25rem;
+}
+
+.clearfix {
+  clear: both;
+}
+.div {
+  padding-top: 20rem;
+}
+.main-section {
+  margin-top: 4rem;
+}
+.sec1 {
+  /* margin-top: 66px; */
+  position: relative;
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  background-position: center;
+  /* height: 100%; */
+  width: 100%;
+  text-align: center;
+}
+.sec1 .text {
+  display: inline-block;
+  margin: 20rem 0rem 22rem 0rem;
+  color: #fff;
+}
+.title {
+  /* text-align: center; */
+  font-size: 5.5rem;
+  margin-bottom: 1.5rem;
+}
+.spotify-description {
+  /* text-align: center; */
+  font-size: 1.8rem;
+}
+.titulo2 {
+  text-align: center;
+}
+.titulo2--titulo {
+  font-size: 2.4rem;
+  color: black;
+  border-bottom: 3px solid #00b172;
+  padding-bottom: 0.1em;
+  display: inline-block;
+  margin: 1.3em 0;
+}
+.col {
+  width: 33%;
+  float: left;
+}
+.icon {
+  height: 7.5em;
+}
+.col--titulo {
+  font-size: 2.2rem;
+  color: #00b172;
+  margin: 0.3em 0 0.6em 0;
+}
+.col--description {
+  font-size: 1.8rem;
+  margin: 0 auto;
+  width: 70%;
+  color: #a9a7a7;
+}
+.container {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+.container .col {
+  padding-bottom: 500em;
+  margin-bottom: -500em;
+}
+.container--green {
+  background-color: #00b172;
+  margin: 4em 1.8em 1.8em 1.8em;
+  padding: 3.6em;
+  color: white;
+}
+.container--green--titulo {
+  font-size: 2.7rem;
+  border-bottom: 3px solid white;
+  padding-bottom: 0.1em;
+  display: inline-block;
+  margin-bottom: 0.2em;
+}
+.container--green--titulo3 {
+  font-size: 2.2rem;
+  margin: 1em 0;
+  display: block;
+  font-weight: 600;
+}
+.centrada {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+.col--right {
+  float: right;
+}
+.spotify--app {
+  width: 100%;
+}
+.container--green-description {
+  font-size: 1.5rem;
+  line-height: 1.5em;
+}
