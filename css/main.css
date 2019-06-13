@@ -1,3 +1,183 @@
+* {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+}
+
+#container {
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+
+h3 {
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+h4 {
+  font-weight: 700;
+  color: #00b172;
+  font-size: 2em;
+}
+
+.underlined-title {
+  border-bottom: 4px solid #00b172;
+  font-size: 2.5em;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+section {
+  padding: 0 25px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+/*Navigation*/
+.navbar {
+  position: fixed;
+  padding-left: 25px;
+  padding-right: 25px;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  min-height: 80px;
+  z-index: 1;
+  background-color: #fff;
+}
+
+.logo {
+  height: auto;
+  float: left;
+  line-height: 1.8em;
+  margin-top: 0.5em;
+}
+
+nav {
+  float: right;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline;
+}
+
+nav ul li > a {
+  color: #000;
+  font-size: 1.5em;
+  text-decoration: none;
+  font-weight: 100;
+  line-height: 2em;
+  padding: 1em 0.8em;
+}
+
+nav ul li > a:hover {
+  color: #00b172;
+}
+
+/*Hero Image*/
+
+.hero-image {
+  height: 120vh;
+  background: url("../images/landing.jpg") top center no-repeat;
+  background-size: 100% 600px;
+  position: relative;
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  margin-bottom: 2em;
+}
+
+h1.hero-title {
+  color: #fff;
+  font-size: 5em;
+  font-weight: 600;
+  margin-bottom: 0em;
+}
+
+h2.hero-subtitle {
+  color: #fff;
+  font-size: 1.9em;
+  font-weight: 100;
+  line-height: 1.3em;
+}
+
+/*Feautes*/
+.features {
+  margin-top: 5em;
+}
+
+.box {
+  width: 33.3%;
+  float: left;
+  padding: 1em;
+}
+
+.box p {
+  font-size: 1.6em;
+  font-weight: 100;
+  color: #1a1a1a;
+  line-height: 1.5em;
+  margin: 0 3em;
+}
+
+.image-wrapper {
+  min-height: 150px;
+}
+
+/*Steps Box*/
+
+.steps-box {
+  background: url(../images/spotify-icon-white.png) center center no-repeat
+    #00b172;
+  background-size: 150px;
+  margin-top: 3em;
+  padding: 5em;
+}
+
+.steps-box article {
+  float: left;
+  width: 50%;
+  color: #fff;
+}
+
+.steps-box article h3 span {
+  border-bottom: 4px solid #fff;
+}
+
+.steps-box article h4,
+.steps-box article h3 {
+  color: #fff;
+}
+
+.steps-box article h4 {
+  margin-bottom: 0em;
+}
+
+.steps-box article p {
+  font-size: 1.4em;
+  line-height: 1.6em;
+}
+
+.steps-box article img {
+  margin-top: 3em;
+}
+
 /*
 Colors:
 
