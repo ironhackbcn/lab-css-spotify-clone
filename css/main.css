@@ -6,3 +6,156 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+nav {
+  height: 100px;
+  width: 100%;
+  background-color: #FFF;
+  position: fixed;
+}
+
+.navbar {
+  width: 100%;
+  height: 150vh;
+}
+
+.logo {
+  width: 150px;
+  margin: 25px 0 25px 20px;
+}
+.logo img {
+  width: 100%;
+}
+.navbar-content {
+  height: 53px;
+  width: 33%;
+}
+
+.menu-content ul li {
+  display: inline-block;
+  text-align: right;
+  margin: auto 10px;
+}
+
+.menu-content ul li a,
+.menu-content ul li a:visited {
+  text-decoration: none;
+  color: #1A1A1A;
+}
+
+#menu ul {
+  margin: 50px 0 0 50px;
+}
+
+.background-photo {
+  overflow: hidden;
+  width: 100%;
+  height: 150vh;
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+}
+
+.h1 {
+  line-height: 100%;
+  color: #FFF;
+  font-size: 4.5em;
+  padding: 50vh 40vh 0 40vh;
+  text-align: center;
+  font-weight: 600;
+}
+
+.h2 {
+  line-height: 100%;
+  color: #1A1A1A;
+  font-size: 2.1em;
+  padding: 8vh 45vh 0 45vh;
+  text-align: center;
+  font-weight: 600;
+}
+
+.h3 {
+  line-height: 100%;
+  color: #FFF;
+  font-size: 1.6em;
+  padding: 0 45vh 20vh 45vh;
+  text-align: center;
+  font-weight: 200;
+}
+
+.green-line {
+  margin: 5px 483px 50px 483px;
+  border-top: 3px solid #00b172;
+}
+.card {
+  width: 25%;
+  margin: 50px;
+}
+.draw {
+  width: 45%;
+  margin:20px auto;
+
+}
+.icons {
+  width: 100%;
+}
+
+.card .h3 {
+  color: #00B172;
+  line-height: 100%;
+  font-size: 1.8em;
+  text-align: center;
+  font-weight: bolder;
+  padding:0;
+  margin:0;
+}
+.card p {
+  color: #1A1A1A;
+  line-height: 100%;
+  font-size: 1.6em;
+  text-align: center;
+  font-weight: lighter;
+  margin-top:30px;
+  
+}
+
+.float-right {
+  float: right;
+  margin-right: 20px;
+}
+.float-left {
+  float: left;
+}
+
+.clear-fix {
+  clear: both;
+}
+section{
+  width:100%;
+  height:100%;
+}
+.content{
+  overflow:hidden;
+  width: 95%;
+  background-color:#00B172;
+  color:#fff;
+  padding:0;
+  margin:0 auto;
+}
+.text-description{
+  color:#fff;
+  width:25%;
+}
+.spotify-logo{
+width:10%;
+background:#fff;
+background-image: url("../images/spotify-icon-white.png");
+}
+
+.kanye-west{
+  
+}
