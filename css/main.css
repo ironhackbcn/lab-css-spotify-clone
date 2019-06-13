@@ -6,3 +6,192 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  font-family: sans-serif;
+}
+
+.navbar {
+  overflow: auto;
+  position: fixed;
+  background-color: #fff;
+  width: 100%;
+}
+
+.logo {
+  float: left;
+  width: 50%;
+}
+
+.logo > img {
+  width: 250px;
+  padding: 20px 30px;
+}
+
+.list {
+  float: right;
+  max-width: 50%;
+  padding: 0 30px;
+  text-align: right;
+}
+
+.list > li {
+  display: inline-block;
+  color: #1a1a1a;
+  padding: 15px;
+  font-size: 30px;
+  line-height: 92px;
+}
+
+.main-section {
+  background-image: url("../images/landing.jpg");
+  background-size: 100%;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 390px;
+}
+
+.main-section > .h1 {
+  color: #fff;
+  font-size: 80px;
+  padding-top: 367px;
+  padding-bottom: 27px;
+}
+
+.main-section > .h2 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 100;
+  padding: 5px;
+}
+
+.middle-section {
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  overflow: auto;
+}
+
+.section-title {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.section-title > .h1 {
+  font-size: 40px;
+  color: #1a1a1a;
+  padding-bottom: 10px;
+  border-bottom: 5px solid #00b172;
+  display: inline;
+}
+
+.left-col {
+  float: left;
+  width: 30%;
+  text-align: center;
+  margin-left: 5%;
+}
+
+.middle-col {
+  float: left;
+  width: 30%;
+  text-align: center;
+}
+
+.right-col {
+  float: left;
+  width: 30%;
+  text-align: center;
+  margin-right: 5%;
+}
+
+.container .img {
+  width: 30%;
+}
+
+div > .h2 {
+  color: #00b172;
+  font-size: 35px;
+  padding: 20px 0 40px;
+}
+
+.middle-col > .h2 {
+  padding-top: 37px;
+}
+
+div > p {
+  font-size: 30px;
+  padding: 10px 50px;
+}
+
+.bottom-section {
+  background-color: #00b172;
+  width: 95%;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.bottom-title {
+  width: 40%;
+  padding: 100px 0 100px 100px;
+}
+
+.bottom-title > .h1 {
+  font-size: 40px;
+  color: #fff;
+  padding-bottom: 10px;
+  border-bottom: 5px solid #fff;
+  display: inline;
+}
+
+.text-bottom-section {
+  width: 33%;
+  padding-left: 100px;
+  float: left;
+}
+
+.text-bottom-section > .h2 {
+  color: #fff;
+  width: 100%;
+}
+
+.text-bottom-section > .p {
+  font-size: 30px;
+  padding: 10px 50px 28px 0;
+  color: #fff;
+  width: 100%;
+  line-height: 1.5;
+}
+
+.fixed-logo-coin {
+  width: 20px;
+  position: relative;
+}
+
+.fixed-logo-coin .fixed-logo {
+  position: absolute;
+  width: 150px;
+  top: 230px;
+  left: 900px;
+}
+
+.right-image {
+  width: 25%;
+  float: right;
+  margin-right: 150px;
+}
+
+.right-image .img {
+  width: 100%;
+}
+
+.bottom-container {
+  width: 100%;
+  overflow: auto;
+}
