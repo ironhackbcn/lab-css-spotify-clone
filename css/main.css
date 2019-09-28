@@ -6,3 +6,190 @@ Green: #00B172
 White: #FFF
 
 */
+*::after,
+*::before{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+ 
+  nav{
+      background-color: white;
+      align-items: center;
+      align-self: center;
+      overflow: auto;
+      position: fixed;
+
+  }
+
+  .navimg{
+      float: left;
+      width: 20%;
+      margin: 10px 10px 10px auto;
+      padding-left: 15px;
+
+  }
+  nav>ul{
+    float: right;
+  
+  }
+  nav > ul >li{
+    padding: 30px;
+    margin: auto;
+    font-size:20px;
+    list-style: none;
+    display: inline;
+  
+  }
+nav > ul >li>a{
+    text-decoration: none;
+    color: black;
+
+}
+.background{
+background-size: cover;
+  background-repeat: no-repeat;
+  width: 98%;
+}
+
+h1{
+    font-size:70px;
+    color: white;
+    text-align: center;
+    position: absolute;
+  top: 40%;
+  left: 26%;
+
+}
+
+h2{
+    font-size:25px;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    position: absolute;
+  top: 60%;
+  left: 28%;
+
+}
+.whatson{
+display: inline-block;
+    align-content: center;
+}
+.songs{
+    width: 33%;
+    float: left;
+    text-align: center;
+    align-items:center;
+
+    
+}
+.songs img{
+    width: 20%;
+}
+.hd{
+    width: 33%;
+    float: left;
+    text-align: center;
+
+
+}
+.hd img{
+    width: 20%; 
+}
+.everywhere{
+    width: 33%;
+    float: left;
+    text-align: center;
+
+
+}
+.everywhere img{
+    width: 20%;
+}
+
+h3{
+    line-height: 1.6;
+    text-align: center;
+    font-size: 35px;
+    text-decoration-line: underline;
+    text-decoration-color: #00B172;
+    text-underline-position: under;
+
+}
+
+.whatson{
+    margin: 70px auto;
+}
+
+.whatson h4{
+    color:  #00B172;
+}
+
+.whatson p{
+    font-weight: 300;
+}
+
+.containerbottom{
+    background-color: #00B172;
+    width: 98%;
+    background-image: url('../images/spotify-icon-white.png');
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position-x:50%;
+    background-position-y: 50%; 
+    display: flex;
+    justify-content: center;
+    
+}
+
+.onlytext{
+    width: 49%;
+    padding-left: 120px;
+    margin-bottom: 20px;
+}
+
+.onlytext h4{
+    color: white;
+    font-size: 35px;
+    text-decoration-line: underline;
+    text-decoration-color:white;
+    text-underline-position: under;
+
+
+}
+.onlytext h5{
+    color: white;
+    font-size: 20px;
+
+}
+.onlytext p{
+    color: white;
+    font-weight: 300;
+    line-height: 1.5;
+}
+.onlyphoto{
+    width: 49%;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.onlyphoto img{
+    width: 50%;
+    float: right;
+    margin: auto;
+    padding: 20px;
+}
