@@ -1,8 +1,174 @@
+
+
+body{
+    margin: 0;
+    font-size: 81.25%;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    
+}
+header > div {
+    padding: 0 10px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+
+  nav {
+    width: 600px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #1A1A1A;
+  }
+  
+  
+  .verde {
+    width: 200px;
+    margin:1rem 2rem; 
+
+  }
+  .public{
+      width: 100%;
+      height: 600px;
+     
+  }
+  .contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+  .centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:#FFF;
+    font-style: normal;
+}
+.firsth1{
+    font-size: 60px; 
+    font-weight: bold;
+    
+}
+#trescolumnas{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding-top: 30px;
+    text-align:  center;
+    margin: auto;
+    
+}
+
+
+div p{
+    font-size: 25px;
+}
+section > p{
+    text-align: center;
+    font-size: 40px;
+    border-bottom: #00B172 10px;
+    font-size: bold;
+    
+}
+
+section img{
+    width: 100px;  
+    
+}
+.millions{
+    color:#00B172;
+    font-weight:bolder;
+}
+.hd{
+    color:#00B172;
+    font-weight:bolder;
+}
+.stream{
+    color:#00B172;
+    font-weight:bolder;
+}
+/*no se porque el border box se pone a todo al ancho de la pantalla*/
+section h1{
+    border-bottom: 4px solid  #00B172;
+    padding: 0 0 10px 0;
+    text-align: center;
+    font-size:  2rem;
+    
+    
+}
+.container{
+    background-color: #00B172;
+    width: 600;
+    margin: 40px;
+    padding-top: 50px;
+    
+
+    
+
+}
+.screen{
+    width: 20rem;     
+
+}
+.logoblanco{
+    width: 8rem;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px;
+    
+}
+.texcontainer{
+    color:#FFF;
+    margin-left: 0;
+}
+
+.container h2{
+    border-bottom: 4px solid #FFF;
+    padding: 0 0 10px 0;
+    font-size: 2rem;
+}
+.container p{
+    font-size: 30px;
+    font-weight: 500;
+}
+.container article{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 Colors:
 
 Text: 1A1A1A
-Green: #00B172
+Green: 
 White: #FFF
 
 */
