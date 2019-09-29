@@ -54,7 +54,7 @@ nav > ul {
   display: flex;
   list-style: none;
   text-decoration: none;
-  font-size: 2.5em;
+  font-size: 2em;
   font-weight: 300;
   color: #1A1A1A;
 }
@@ -179,12 +179,17 @@ nav > ul > li {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
   padding-top: 2em;
 }
 
 .highlight-container > .highlight > .cards > .card-container {
-  width: 500px;
-  padding: 2em 0em 0em 8em;
+  padding-bottom: 5em;
+  margin-right: 5em;
+  width: 300px;
+  width: 300px;
+  padding: 2em 0em 5em 8em;
+  flex-grow: 2
 }
 
 .highlight-container > .highlight > .cards > .card-container > h3 {
@@ -198,13 +203,20 @@ nav > ul > li {
   color: #FFF;
   font-size: 2em;
   font-weight: 300;
-  width: 45%;
+  /*width: 100%;*/
 }
 
 #spotify-icon {
-  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#spotify-icon > img {
+  width: 50%;
 }
 
 #highlight-card-app {
-  width: 30%;
+  width: 400px;
+  padding-right: 10em;
 }
