@@ -1,8 +1,158 @@
-/*
-Colors:
+*, *:after, *:before{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body{font-size: 10px;
+font-family: 'Roboto', sans-serif;
+color: #1a1a1a;
+text-align: center;}
 
-*/
+nav{
+    position: fixed;
+    top: 0;
+    background: white;
+    width: 100%;
+    height: 100px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo-img{
+    height: 70px;
+    padding-left: 5%;
+}
+
+nav ul{
+    display: flex;
+    padding-right: 2%;
+}
+
+nav li{
+    list-style: none;
+    height: 50%;
+    font-size: 2.5em;
+    justify-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: #1a1a1a;
+    padding: 10px 10px;
+}
+
+/* HEADER */
+
+header{
+    padding-top: 100px;
+    height: 1000px;
+    background-image: url("../images/landing.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+header h1{
+    position: relative;
+    top: 30%;
+    font-size: 7em;
+}
+
+header p{
+    position: relative;
+    top: 35%;
+    font-size: 3em;
+    font-weight: 300;
+}
+
+section{
+    margin: 50px 2%;
+    padding: 50px 3%;
+}
+
+h2{
+    font-size: 4em;
+    padding: 20px 25px 50px;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+#intro h2{
+    text-decoration-color:#00B172;
+    padding-bottom: 10%;
+}
+
+.intro-article-container{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+#intro article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2em;
+    line-height: 2em;
+    text-align: center;
+    color: #1a1a1a;
+}
+
+#intro h3{
+    color: #00B172;
+    margin-top: 10%;
+}
+
+#intro img{
+    width: 50%;
+}
+
+/* EXAMPLE SECTION */
+
+#example{
+    display: flex;
+    justify-content: space-around;
+    background: #00B172;
+    color: white;
+    text-align: left;
+}
+
+#example .example-img{
+    display: inline-block;
+    height: 550px;
+    width: 375px;
+    margin: 3% 5%;
+}
+
+#example .example-inside-container{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+#example .example-article-container{
+    width: 70%
+}
+
+#example article{
+    padding: 10px 20px;
+    font-size: 2.5em;
+}
+
+#example article p{
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 0.9em;
+    line-height: 2em;
+}
+
+#example .example-icon{
+    display: inline-block;
+    margin: auto;
+    padding-bottom: 10%;
+    width: 20%;
+}
