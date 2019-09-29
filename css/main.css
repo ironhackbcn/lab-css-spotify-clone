@@ -6,3 +6,151 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+	font-family: Helvetica;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content:  space-between;
+	padding: 10px
+}
+
+.nav-bar img {
+	height: 40px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #aeaeae;
+	font-size: 20px;
+	padding-right: 40px;
+	
+}
+
+.bigparty {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 200px;
+	background-image: url("/images/landing.jpg");
+	color: white;
+	height: 390px;
+	background-position-y: -320px;
+	background-size: cover;
+}
+
+.bigparty h1 {
+	font-size: 90px;
+}
+
+.bigparty p {
+	margin-top: 20px;
+	font-size: 24px;
+	text-align: center;
+	align-items: center;
+	box-sizing: border-box;
+	width: 40%;
+}
+
+.features {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 30px;
+
+}
+
+.features div {
+	display: flex;
+	justify-content: center;
+	margin: 100px;
+}
+
+.features div article {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.features div article:last-child{
+	margin:0;
+}
+
+.features div article img {
+	width: 35%;
+	height: 40%;
+}
+
+.features h2 {
+	border-bottom: 2px solid green;
+	font-size: 40px;
+}
+
+.features h3 {
+	padding-top: 20px;
+	font-size: 28px;
+	color: #1DB954;
+}
+
+.features p { 
+	font-size: 22px;
+	width: 60%;
+	text-align: center;
+	margin-top: 5%;
+}
+
+.all-green {
+	display: flex;
+	justify-content: space-between;
+	background-color: #1DB954;
+	color: white;
+	margin: 30px;
+	height: 50vh;
+	padding: 4%;
+}
+
+.all-green div {
+	width: 30%;
+
+}
+
+.all-green h2 {
+	text-decoration: underline;
+	text-underline-position: under;
+	font-size: 35px;
+
+}
+
+.all-green div {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 40%;
+}
+
+.all-green p {
+	display: flex;
+	font-size: 21px;
+    width: 65%;
+}
+
+
+.logo {
+	margin-left: auto;
+	margin-right: auto;
+	height: 30%;
+	width: 30%;
+	
+}
+
+.kanye {
+	width: 80%;
+	height: 100%;
+	
+}
