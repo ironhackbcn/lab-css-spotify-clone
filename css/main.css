@@ -32,6 +32,7 @@ body{
       align-self: center;
       overflow: auto;
       position: fixed;
+      z-index: 2;
 
   }
 
@@ -170,6 +171,7 @@ h3{
 .onlytext{
     width: 49%;
     padding-left: 120px;
+    padding-top:60px;
     margin-bottom: 20px;
 }
 
