@@ -1,8 +1,144 @@
 /*
 Colors:
 
-Text: 1A1A1A
+Text: #1A1A1A
 Green: #00B172
 White: #FFF
 
 */
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #1A1A1A;
+}
+
+.header{
+    background-image: url("/images/landing.jpg");
+    background-position: 0 0;
+    background-size: cover; /*Si no faig aixo, la imatge es enorme i nomes surt una part.*/
+    background-repeat: no-repeat;
+    height: 750px;
+    /*position: relative; No se si relative o center*/
+    padding-top: 300px; /*Això fa que l'h1 quedi a la meitat de la imatge. Hi ha una altre manera per cntrar?*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header p {
+    color: white;
+    font-size: 1.8em;
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 4.8em;
+    text-align: center;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.container{
+    width: 100%;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+nav>ul>a {
+    display: inline-block;
+    padding: 0 20px;
+    font-size: 1.3em;
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+.options {
+   display: flex;
+   text-align: center;
+   flex-direction: column;
+   height: 580px;
+   justify-content: space-around;
+}
+
+.options > h2 {
+    text-decoration: underline #00B172;
+    font-size: 2.3em;
+}
+
+.three{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.three > article {
+    width: 25%;
+}
+
+.three > article > p {
+    font-size: 1.6em;
+    color: #1A1A1A;
+    font-weight: 200;
+}
+
+.three h3{
+    color: #00B172;
+    font-size: 1.6em;
+    padding: 25px;
+    font-weight: 700;
+}
+
+.greenBox {
+    background-color: #00B172;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 880px;
+    border: 35px solid white;
+    color: white;
+    line-height: 200%;
+    font-size: 1.1em;
+}
+
+.columnLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70%;
+    font-size: 1.2em;
+    margin-bottom: 8%;
+}
+
+.columnLeft h3{
+    font-size: 1.4em;
+    padding: 30px 0;
+}
+
+.greenBox h2{
+    font-size: 1.6em;
+    text-decoration: underline white;
+    padding-bottom: 70px;
+}
+
+
+
+
+
+
+
+
