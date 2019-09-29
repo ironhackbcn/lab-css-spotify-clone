@@ -6,3 +6,205 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* Begin CSS Reset */
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+/* End CSS Reset */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #1A1A1A;
+}
+
+/* Header and Navbar */
+
+.logo {
+  width: 15%;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2em 0em 2em 4em;
+  position: fixed;
+  background-color: white;
+  height: 90px;
+}
+
+nav > ul {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  font-size: 2.5em;
+  font-weight: 300;
+  color: #1A1A1A;
+}
+
+nav > ul > li {
+  padding: 0em 1em 0em 0em;
+}
+
+/* Hero Image section */
+
+.hero-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  height: 800px;
+  text-align: center;
+  color: #FFF;
+}
+
+.hero-image > h1 {
+  font-size: 10em;
+  font-weight: 500;
+}
+
+.hero-image > p {
+  font-size: 3.5em;
+  font-weight: 300;
+  width: 60%;
+}
+
+/** Whats On? section */
+
+.whats-on {
+  text-align: center;
+  padding: 5em;
+}
+
+.whats-on > .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.whats-on > .title > h2 {
+  font-size: 5em;
+  font-weight: 500;
+  border-bottom: #00B172 5px solid;
+  width: 35%;
+}
+
+.whats-on > .cards {
+  padding-top: 10em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+.whats-on > .cards > .card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-between;
+  padding-bottom: 5em;
+  margin-right: 5em;
+  width: 300px;
+}
+
+.whats-on > .cards > .card-container > img {
+  width: 15em;
+}
+
+.whats-on > .cards > .card-container > h3 {
+  padding-top: 0.5em;
+  font-size: 3em;
+  font-weight: bolder;
+  color: #00B172;
+}
+
+.whats-on > .cards > .card-container > p {
+  font-size: 2.5em;
+  text-align: center;
+  font-weight: 100;
+  padding-top: 1em;
+  width: 80%;
+}
+
+/* Highlights section */
+
+.highlight-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+}
+
+.highlight-container > .highlight {
+
+  background-color: #00B172;
+  width: 95%;
+}
+
+.highlight-container > .highlight > .title {
+  display: flex;
+  padding-left: 8em;
+}
+
+.highlight-container > .highlight > .title > h2 {
+  font-size: 3.5em;
+  font-weight: 400;
+  color: #FFF;
+  border-bottom: #FFF 3px solid;
+  padding: 2em 0em 0.2em 0em;
+}
+
+.highlight-container > .highlight > .cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 2em;
+}
+
+.highlight-container > .highlight > .cards > .card-container {
+  width: 500px;
+  padding: 2em 0em 0em 8em;
+}
+
+.highlight-container > .highlight > .cards > .card-container > h3 {
+  color: #FFF;
+  font-size: 3em;
+  font-weight: 500;
+  padding: 1em 0em 1em 0em;
+}
+
+.highlight-container > .highlight > .cards > .card-container > p {
+  color: #FFF;
+  font-size: 2em;
+  font-weight: 300;
+  width: 45%;
+}
+
+#spotify-icon {
+  width: 20%;
+}
+
+#highlight-card-app {
+  width: 30%;
+}
