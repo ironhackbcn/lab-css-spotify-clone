@@ -15,22 +15,31 @@ White: #FFF
 
 header {
 	display: flex;
+	position: fixed;
 	align-items: center;
 	justify-content:  space-between;
-	padding: 10px
+	width: 100%;
+	padding: 10px;
+	background-color: white;
 }
 
 .nav-bar img {
 	height: 40px;
+
 }
 
-nav a {
+.nav-bar nav ul li {
+	display: inline;
+ 	list-style-type: none;
 	text-decoration: none;
-	color: #aeaeae;
 	font-size: 20px;
 	padding-right: 40px;
 	
 }
+
+a {
+	color: #aeaeae;
+	text-decoration: none;}
 
 .bigparty {
 	display: flex;
@@ -39,10 +48,10 @@ nav a {
 	flex-direction: column;
 	padding: 200px;
 	background-image: url("/images/landing.jpg");
-	color: white;
 	height: 390px;
-	background-position-y: -320px;
 	background-size: cover;
+	background-position: center;
+	color: white;
 }
 
 .bigparty h1 {
@@ -142,15 +151,17 @@ nav a {
 
 
 .logo {
-	margin-left: auto;
+	position: absolute;
+	left:30%;
+	height: 200px;
+	width: 200px;
+	/*margin-left: auto;
 	margin-right: auto;
 	height: 30%;
-	width: 30%;
-	
+	width: 30*/	
 }
 
 .kanye {
 	width: 80%;
 	height: 100%;
-	
 }
