@@ -6,3 +6,176 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    max-width: 1480px;
+    margin: 0 auto;
+}
+
+.nav-logo {
+    height: 60px;
+    float: left;
+
+}
+
+.nav-bar {
+    height: 60px;
+    padding: 20px;
+}
+
+.nav-bar ul {
+    float: right;
+}
+
+.nav-bar ul li {
+    display: inline-block;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: #1A1A1A;
+    padding: 20px;
+    font-size: 20px;
+    line-height: 60px;
+}
+
+.nav-bar ul li a:hover {
+    background-color: rgb(238, 225, 225);
+}
+
+.photo-stage {
+    background-image: url("../images/landing.jpg");
+    height: 85vh;
+    background-size: cover;
+}
+
+.photo-stage h1 {
+    padding-top: 25%;
+    text-align: center;
+
+    color: #FFF;
+    font-size: 4.2rem;
+    letter-spacing: 3px;
+}
+
+.photo-stage p {
+    margin-top: 20px;
+    color: #FFF;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 2.7rem;
+}
+
+.whats-on {
+    height: 60vh;
+    margin-top: 50px;
+}
+
+/* how to center this element, keeping the correct border-bottom?*/
+.whats-on h2 {
+    width: 35%;
+    font-size: 3rem;
+    text-align: center;
+    border-bottom: 3px solid #00B172;
+    margin: 0 auto;
+}
+
+.whats-photo {
+    max-width: 8rem;
+    margin: 0 auto;
+}
+
+.wrap {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 4rem 2rem;
+    margin: 70px auto;
+}
+
+.millions,
+.hd,
+.stream {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 3rem;
+}
+
+.wrap h3 {
+    font-size: 1.9rem;
+    color: #00B172;
+    margin: 30px auto;
+}
+
+.wrap p {
+    margin: 0 auto;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+
+.green {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    background-color: #00B172;
+    margin: 40px;
+    padding: 80px;
+    color: #FFF;
+    font-weight: 300;
+}
+
+img.spotify-white {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    width: 8rem;
+}
+
+.yeezy {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: center;
+}
+
+.yeezy h2 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    text-align: left;
+    border-bottom: 4px solid #00B172;
+    padding-bottom: 12px;
+
+    border-bottom: 2px solid #FFF;
+}
+
+.yeezy h3 {
+    font-size: 2rem;
+
+}
+
+.yeezy p {
+    font-size: 1.6rem;
+    text-align: left;
+    max-width: 40%;
+
+}
+
+.spotify-app {
+    max-width: 22rem;
+
+}
