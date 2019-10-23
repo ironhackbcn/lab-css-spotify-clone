@@ -1,8 +1,197 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+/* CSS reset (boilerplate) */
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+/* General */
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navbar */
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    position: fixed;
+    background-color: #fff;
+}
+
+nav img {
+    width: auto;
+    height: 100px;
+}
+
+nav ul {
+    width: 35%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #1A1A1A;
+    font-size: 1.7rem;
+    font-weight: 300;
+}
+
+/* Header */
+
+header {
+    min-height: 1200px;
+    background-image: url('../images/landing.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 500px 0;
+}
+
+h1, header p {
+    padding: 5px 0;
+    color: #fff;
+    text-align: center;
+}
+
+h1 {
+    font-size: 6rem;
+    font-weight: 400;
+}
+
+p {
+    font-size: 2.1rem;
+    font-weight: 300;
+    line-height: 2.3rem;
+}
+
+/* Main */
+
+main {
+    margin: 3%;
+    color: #1A1A1A;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+section h2 {
+    font-size: 2.8rem;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+section h3 {
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+#about {
+    margin-bottom: 8%;
+}
+
+#about h2 {
+    margin: 0 auto 5%;
+    padding-bottom: 10px;
+    border-bottom: 7px solid #00B172;
+    margin-bottom: 130px;
+}
+
+#about .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+#about .container div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#about .container div h3 {
+    color: #00B172;
+}
+
+#about .container div img {
+    width: 200px;
+}
+
+#about .container div p {
+    text-align: center;
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: 200;
+}
+
+#features {
+    background-color: #00B172;
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    padding: 4%;
+}
+
+#features .container {
+    display: flex;
+    flex-direction: column;
+}
+
+#features .container h2 {
+    border-bottom: 7px solid #fff;
+}
+
+#features .container p {
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+#features #icon, #features #app {
+    display: flex;
+    align-items: center;
+}
+
+#features #icon img {
+    height: 190px;
+    width: 190px;
+    margin-right: 120px;
+}
+
+#features #app img {
+    width: 480px;
+    margin-right: 70px;
+}
