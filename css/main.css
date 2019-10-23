@@ -6,3 +6,147 @@ Green: #00B172
 White: #FFF
 
 */
+h1, body, html, main {
+    margin: 0;
+  }
+  /*Import the font and set the default size*/
+  html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px
+  }
+  
+  body {
+    background-color: white;
+    font-family: "Time new Roman", sans-serif, serif;
+  }
+
+
+  header > nav{
+    display: flex;
+    padding-bottom: 20px;
+    color: white;
+  }
+  header > nav > ul{
+    list-style: none;
+    padding-top: 20px;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin-left: 600px;
+    /* align-items: right; */
+  }
+  a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  }
+
+  header > nav > ul > li{
+    margin-right: 20px;
+    align-items: right;
+    color: black;
+
+}
+
+  header > nav > img {
+    width: 200px;
+    padding-top: 20px;
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  #music_everyone {
+    background-image: url("../images/landing.jpg");
+    height: 1000px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+}
+
+#music_everyone > h1{
+    padding-top: 400px;
+}
+#music_everyone > h3{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#spotify_info > h2{
+    text-align: center;
+    font-size: 30px;
+    border-bottom: 4px solid #00B172;
+    margin-right: 350px;
+    margin-left: 350px;
+}
+
+.spotify_icons > article> img{
+    height: 100px;
+    padding-top: 20px;
+    padding-left: 50px;
+    display: inline-block;
+
+}
+
+.spotify_icons > article{
+    /* height: 50px; */
+    margin-left: 150px;
+    padding-top: 20px;
+    padding-left: 20px;
+    display: inline-block;
+    font-size: 15px;
+}
+
+
+.spotify_icons > article > h3{
+    color: #00B172;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* How to put text in two lines?? */
+.spotify_icons > article > p{
+    ??
+}
+
+#last_section{
+    margin-top: 100px;
+    background-color: #00B172;
+    color: white;
+    display: flex; 
+    align-items: center;
+    align-content: center; 
+    padding-left: 150px;
+    padding-top: 100px;
+}
+
+#last_section > div{
+    margin-left: 20px;
+    
+}
+#last_section > div > h2{
+    border-bottom: 3px solid white;
+    margin-right: 150px;
+}
+#last_section > div > article > p{
+    text-align: justify;
+    line-height: 20px;
+}
+
+#spotify_logo{
+    height: 100px;
+    padding-top: 20px;
+    margin-right: 80px;
+}
+
+#app {
+    height: 400px;
+    /* margin-right: 100px; */
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+
+
+
