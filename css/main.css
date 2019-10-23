@@ -6,3 +6,143 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+* {
+  margin: 0px 0px;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  margin: 0px 100px 50px 100px;
+}
+
+h1 {
+  color: white;
+  font-size: 4em;
+  text-align: center;
+}
+
+h2 {
+  color: #1a1a1a;
+  font-size: 2em;
+  font-weight: 900;
+}
+
+h3 {
+  color: #00b172;
+  font-size: 1.2em;
+  font-weight: 900;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+.top-bar img {
+  width: 200px;
+  padding-left: 20px;
+}
+
+.nav-bar {
+  align-items: center;
+}
+
+.nav-bar-item {
+  padding-right: 20px;
+}
+
+.nav-bar ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+header {
+  background-image: url("/home/nur/Ironhack/M1/labs/lab-css-spotify-clone/images/landing.jpg");
+  background-position: 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+  padding-top: 400px;
+  position: relative;
+  text-align: center;
+}
+
+header p {
+  color: white;
+  font-size: 1.5em;
+}
+
+.section1 {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.section1 h2 {
+  margin-top: 20px;
+  text-align: center;
+  text-decoration: underline #00b172;
+  padding: 50px 0px;
+}
+
+.section1-containers {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.section1-containers img {
+  height: 50px;
+}
+
+.kanye-box {
+  background-color: #00b172;
+  color: white;
+  padding: 100px;
+}
+
+.kanye-box h2 {
+  color: white;
+  text-decoration: underline;
+  display: block;
+}
+
+.kanye-box-elements {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.kanye-containers {
+  display: flexbox;
+  width: 500px;
+}
+
+#white-logo {
+  width: 150px;
+  height: 150px;
+}
+#kanye-app {
+  width: 300px;
+  height: 532.5px;
+}
+
+.kanye-box h3 {
+  color: white;
+  font-weight: 800;
+}
