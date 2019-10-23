@@ -1,8 +1,237 @@
-/*
-Colors:
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
 
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        
+        vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+        display: block;
+}
+body {
+        line-height: 1.25;
+}
+ol, ul {
+        list-style: none;
+}
+blockquote, q {
+        quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+        content: '';
+        content: none;
+}
+table {
+        border-collapse: collapse;
+        border-spacing: 0;
+}
+
+
+/* everything above is RESET CSS */
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+nav {
+    background-color: white;
+    color: #1A1A1A;
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+}
+
+nav li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 25px;
+}
+
+
+
+nav img {
+    max-width: 100%;
+    max-height: 40px;
+    padding-left: 10px;
+}
+
+
+#landing {
+    background: url(../images/landing.jpg);
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    padding: 0;
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+
+#landing h1 {
+    padding-top: 200px;
+    font-size: 55px;
+}
+
+#landing p {
+    font-size: 20px;
+    padding-top: 20px;
+    
+
+}
+
+
+#middle {
+    background-color: white;
+    height: 410px;
+    text-align: center;
+    justify-content: center;
+}
+
+ div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: flex-start;
+}
+
+#middle h1 {
+    color: #00B172;
+    margin: 25px 0 5px 0;
+    padding-bottom: 10px;
+    font-size: 21px;
+    font-weight: bolder;
+}
+
+#middle h2 {
+    font-size: 26px;
+    font-weight: bolder;
+    line-height: 1;
+    text-align: center;
+    padding: 8px;;
+    color: black;
+    border-bottom: 3px solid #00B172;
+    display: inline-flex;
+    margin: 20px auto 70px auto;
+    
+}
+
+article img {
+    height: 75px;
+    width: auto;
+}
+
+#bottom {
+    display: flex;
+    flex-direction: row;
+    background-color: #00B172;
+    background-image: url(/images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-size: 95px;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    color: white;
+    height: 550px;
+    border: 28px solid white;
+    text-align: left;
+
+    
+}
+
+.bottom-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    padding 40px 0;
+    flex: 1;
+    
+}
+
+.rightside {
+    flex: 1;
+}
+
+
+#bottom h2 {
+    font-size: 26px;
+    font-weight: bolder;
+    border-bottom: 2px solid white;
+    padding-top: 10px;
+}
+
+#bottom article {
+    margin: 0;
+    padding-left: 1px;
+}
+
+#bottom h1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding-left: ;
+}
+
+.flex-item { 
+    padding-right: 104px; 
+}
+
+.flex-item2 {
+    padding-right: 129px;
+}
+
+.flex-item3 {
+    padding-right: 112px;
+}
+
+#bottom p {
+    font-size: 15px;
+}
+
+#bottom img {
+
+    display: flex;
+    height: 410px;
+    width: auto;
+
+}
+
+
+/* notes upon finish:
+   had issues with alignment of articles in last section
+   I think I might have some conflicting flexbox rules applied in different areas
 */
