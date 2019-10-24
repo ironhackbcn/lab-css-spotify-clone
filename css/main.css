@@ -6,3 +6,118 @@ Green: #00B172
 White: #FFF
 
 */
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
+*{
+    font-family: sans-serif;
+    font-weight: 400;
+}
+body {
+    margin: 0;
+}
+nav {
+    padding: 3px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: -30px;
+}
+#logo {
+    display: inline;
+    width: auto;
+    height: 40px;
+    margin-top: 7px;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: raw;
+}
+nav ul li {
+    margin: 0 10px;
+}
+
+header {
+    background-image: url('../images/landing.jpg');
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white
+    
+}
+header h1 {
+    font-size: 3rem;
+    position: relative;
+    text-align: center;
+    padding-top: 180px;
+}
+header p {
+    font-size: 1.1rem;
+    text-align: center;
+    margin-top: -15px;
+}
+#whatsOn {
+    padding-bottom: 80px;
+    margin: 0 50px;
+}
+
+#whatsOn h2 {
+    margin: 30px 370px;
+    border-bottom: 2px solid #00B172;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#whatsOn div {
+    display: flex;
+    flex-direction: raw;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+#whatsOn img {
+    width: 70px;
+    height: 60px;
+}
+#whatsOn h3 {
+    color: #00B172;
+}
+#greenSection {
+    margin: 0 20px;
+    background: #00B172;
+    height: 500px;
+    display: flex;
+    flex-direction: raw;
+    justify-content: space-between;
+    color: white;
+}
+#kanye {
+    height: 400px;
+    margin: 60px;
+}
+#whiteLogo {
+    padding: 200px 10px;
+    display: flex;
+    align-items: center;
+    width: 80px;
+}
+h4 {
+    border-bottom: 1px solid white;
+    margin-left: 50px;
+    font-size: 1.4em;
+}
+h5 {
+    margin-left: 50px;
+    font-size: 1.1em;
+}
+#greenSection p {
+    margin-left: 50px;
+    margin-right: 100px;
+    font-size: 0.8em;
+}
